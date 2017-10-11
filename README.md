@@ -17,6 +17,7 @@ To run Pacman with a game agent use the -p command. Run Pacman as a GreedyAgent:
 python pacman.py -p GreedyAgent
 ```
 All available agents are `MinimaxAgent`, `AlphaBetaAgent`, `ExpectimaxAgent`, `MonteCarloAgent`.
+
 You can run Pacman on different maps using the -l command:
 ```
 python pacman.py -p GreedyAgent -l testClassic
